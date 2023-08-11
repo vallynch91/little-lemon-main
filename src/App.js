@@ -1,16 +1,16 @@
-import React from 'react';
-import Header from './componants/Header.js'
-import Nav from './componants/Nav.js'
-import Footer from './componants/Footer.js'
+import React from "react";
+import Home from "./routes/Home";
+import Reservations from "./routes/Reservations";
 
-import './App.css';
+import {Route, Routes} from "react-router-dom";
 
 function App() {
   return (
     <>
-    <Header />
-    <Nav />
-    <Footer />
+      <Routes>
+        <Route path = "/" element = {<Home />}/>
+        <Route path = "/reservations" element = {<Reservations />}/>
+      </Routes>
     </>
   );
 }
