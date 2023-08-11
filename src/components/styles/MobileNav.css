@@ -6,7 +6,7 @@
 @media screen and (max-width: 1024px) {
 
     .mobile-nav {
-        display: flex;        
+        display: flex;
     }
 
     .mobile-nav ul li a {

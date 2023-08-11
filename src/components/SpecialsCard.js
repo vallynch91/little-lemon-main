@@ -1,8 +1,8 @@
 import React from 'react'
 import "../components/styles/SpecialsCard.css"
-import Dessert1 from "../components/assets/salad.jpg"
-import Dessert2 from "../components/assets/bruschetta1.jpg"
-import Dessert3 from "../components/assets/creme.jpg"
+import Dessert1 from "../components/Assets/salad.jpg"
+import Dessert2 from "../components/Assets/bruschetta1.jpg"
+import Dessert3 from "../components/Assets/creme.jpg"
 import { MdDeliveryDining } from "react-icons/md"
 import { NavLink } from 'react-router-dom'
 
