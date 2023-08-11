@@ -1,9 +1,16 @@
+import React from 'react';
+import Header from './componants/Header.js'
+import Nav from './componants/Nav.js'
+import Footer from './componants/Footer.js'
+
 import './App.css';
 
 function App() {
   return (
     <>
-    <p>little lemon homepage</p>
+    <Header />
+    <Nav />
+    <Footer />
     </>
   );
 }
